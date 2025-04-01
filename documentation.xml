@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+    <title>Справочное руководство для программистов</title>
+
+    <chapter>
+        <title>Модуль table_creation</title>
+        <section>
+            <title>Класс Table</title>
+            <para>
+                Класс для создания и управления таблицами.
+            </para>
+            <method>
+                <title>set_cell(address, value)</title>
+                <para>
+                    Устанавливает значение в указанную ячейку.
+                </para>
+                <parameter>address (str): Адрес ячейки.</parameter>
+                <parameter>value (any): Значение для записи.</parameter>
+            </method>
+            <method>
+                <title>get_cell(address)</title>
+                <para>
+                    Возвращает значение из указанной ячейки.
+                </para>
+                <parameter>address (str): Адрес ячейки.</parameter>
+                <returns>any: Значение ячейки или None.</returns>
+            </method>
+        </section>
+    </chapter>
+
+    <chapter>
+        <title>Модуль math_calculations</title>
+        <section>
+            <title>Функция sum_range(values)</title>
+            <para>
+                Вычисляет сумму значений в списке.
+            </para>
+            <parameter>values (list): Список чисел.</parameter>
+            <returns>float: Сумма значений.</returns>
+        </section>
+    </chapter>
+</book>
